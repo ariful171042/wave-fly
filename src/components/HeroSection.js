@@ -21,7 +21,7 @@ const HeroSection = () => {
             </p>
             <p className="flex justify-center items-center">
               <span className="text-2xl">$</span>
-              <span className="font-bold text-5xl">19</span>
+              <span className="font-bold text-5xl">39</span>
               <span className="text-3xl">.99/Mo</span>
             </p>
             <button className="btn inline-block bg-cyan-400 py-5 px-6 rounded-full border border-solid border-cyan-500 hover:bg-transparent hover:border border-hover:border-cyan-500 duration-300">

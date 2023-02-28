@@ -5,7 +5,7 @@ import { MdOutlineSecurityUpdateGood } from "react-icons/md";
 
 const NetworkSolutions = () => {
   return (
-    <div className=" flex flex-col items-center">
+    <div className=" flex flex-col items-center" id="solutions">
       <h2 className="mt-20 text-center text-5xl">
         Network Solutions From WaveFly
       </h2>
