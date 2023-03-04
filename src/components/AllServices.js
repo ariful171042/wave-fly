@@ -1,6 +1,6 @@
 const AllServices = () => {
   return (
-    <div className="services-wraper mt-20">
+    <div className="services-wraper mt-20" id="allPacage">
       <div className="section-title text-center flex flex-col ">
         <p className="font-medium">NEW INTERNET PACKAGES ARE HERE!</p>
         <h2 className="text-5xl">Better-Than-Ever Offers</h2>

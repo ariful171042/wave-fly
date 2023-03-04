@@ -20,7 +20,17 @@ const Navber = () => {
           </li>
           <li>
             <HashLink
-              to={"#home"}
+              smooth
+              to={"#solutions"}
+              className="link-item hover:text-cyan-300 duration-300"
+            >
+              Solutions
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              smooth
+              to={"#allPacage"}
               className="link-item hover:text-cyan-300 duration-300"
             >
               All Packages
@@ -28,18 +38,11 @@ const Navber = () => {
           </li>
           <li>
             <HashLink
-              to={"#home"}
+              smooth
+              to={"#contact"}
               className="link-item hover:text-cyan-300 duration-300"
             >
               Contact
-            </HashLink>
-          </li>
-          <li>
-            <HashLink
-              to={"#solutions"}
-              className="link-item hover:text-cyan-300 duration-300"
-            >
-              Solutions
             </HashLink>
           </li>
         </ul>
